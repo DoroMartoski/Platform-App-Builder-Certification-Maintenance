@@ -1,4 +1,4 @@
-##Objectives:
+## Objectives:
 
 * Locate lightning app builder header and toolbar buttons
 * Deploy org-wide defaults & criteria-based sharing rules together
@@ -19,7 +19,7 @@ Ability to configure record details fields and sections inside the Lightning App
 With Dynamic Forms you can:
 * migrate the fields and sections on your page layout as individual components into the Lightning App Builder.
 
-###Debug flow errors in a sandbox org as another user
+### Debug flow errors in a sandbox org as another user
 
 * Process Automation Settings --> select the Let admins debug flows as other users checkbox
 * open a flow in Flow Builder and click Debug
