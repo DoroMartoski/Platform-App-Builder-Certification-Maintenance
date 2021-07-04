@@ -1,1 +1,11 @@
+##Objectives:
 
+* Locate lightning app builder header and toolbar buttons
+* Deploy org-wide defaults & criteria-based sharing rules together
+* Develop flow screen components that work for multiple objects 
+* Break up your record details with Dynamic forms
+* Debug flow errors in a sandbox org as another user
+
+
+### Develop flow screen components that work for multiple objects:
+* Create re-usable flow screen components that use the **generic sObjects & sObjects[] data types**
