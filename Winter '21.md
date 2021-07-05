@@ -43,6 +43,30 @@ Because of their speed, Salesfrce recommend that you use before-save updates in 
 * Create or update related records
 * Perform actions other than updating the record that launches the flow e.g. send emails
 
+### How it works
+* The $**Record** global variable contains the values from the record that triggers the flow to run. As a result, **there’s no need to add a Get Records element to obtain the record data nor create flow variables to store the record data**
+* When the flow changes the values in the $Record global variable, Salesforce automatically applies those new values to the record. So there’s no need to add an Update Records element to save the new values to the database.
+
+
+## Take a Flow Path Only When Certain Record Changes Are Made
+* you can filter out record updates that are unrelated to your flow’s use case
+* avoid reprocessing records that previously triggered the flow
+
+
+* **When you configure a Decision outcome, you can now set that outcome to execute only when the triggering record is updated to meet the condition requirements**
+
+This option gives your flows a powerful filtering feature similar to the ISCHANGED function found in Workflow Rules and Process Builder and the oldMap/newMap variables found in Apex
+Build more of your automation directly in Flow Builder without requiring Process Builder or Apex to check the prior version of the data
+
+### How it works
+* On a record-triggered flow, configure the Start element to trigger when the record is updated, or when it’s created or updated.
+* Only if the record that triggered the flow to run is updated to meet the condition requirements
+
+
+
+
+
+
 
 
 
