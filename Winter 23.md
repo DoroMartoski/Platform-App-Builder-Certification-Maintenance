@@ -33,6 +33,12 @@ How: In the Lightning App Builder, open an account, including person account, co
 Click the new Fields tab, and place fields anywhere on the page. Or automate the process by migrating your Record Detail component to use Dynamic Forms with the click of a button.
 
 
+### Allow Multiple Values in Restriction or Scoping Rule Record Criteria
+Configure a restriction or scoping rule to use a comma-separated list of IDs or values in the record criteria.
+
+Where: Restriction rules are available in Lightning Experience in Enterprise, Performance, Unlimited, and Developer editions. Scoping rules are available in Lightning Experience in Performance, Unlimited, and Developer editions.
+
+How: To create a restriction or scoping rule using more than one value in the record criteria, add a comma as a delimiter to separate the ID or string values. To include a single value that contains a comma, surround the value with double quotes (”).
 
 
 
