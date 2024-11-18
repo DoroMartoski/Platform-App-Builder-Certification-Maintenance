@@ -1,4 +1,4 @@
-### Build Screen Flows with Reactive Components
+# Build Screen Flows with Reactive Components
 Reduce # of screens
 Build screens that feel like single page applications with reactive flow screen components.
 Configure supported standard components or custom lightning web components to react to changes in other components on the same screen in real time.
@@ -35,5 +35,37 @@ If you navigate to a previous or later screen and then return to the current scr
 Previously, fields didn’t update unless the user performed an additional action, such as manually changing a value in a field. This change applies only to flows that are running on API version 59.0 or later.
 
 ### Inform Screen Reader Users of Reactive Changes on a Flow Screen
+
 Upgrade your flows to run on API version 59.0 or later to let screen reader users know when flow screen components change due to their actions on other components on the same screen. 
 For example, if a user changes a field on a screen that results in a component on the screen becoming visible, the screen reader announces, “Due to your recent changes, the content on the screen has changed.”
+
+**********************************************************************************************************************************************************************************************************************************************
+
+## Give Your Mobile Users the Dynamic Forms Experience
+With Dynamic Forms, you can add and remove fields individually from a Lightning record page, break up record details into multiple sections, and set conditional visibility rules for fields and field sections, all in Lightning App Builder. 
+Previously, Dynamic Forms were available only on desktop. Now, with Dynamic Forms on Mobile, your mobile users can have the same customized experience that your desktop users have.
+
+If you add the dynamic form component to a Lightning record page and that page includes a Record Detail - Mobile component, your users see only the Record Detail - Mobile component from their mobile device, even after you enable Dynamic Forms on Mobile. So that your users can view Dynamic Forms on Mobile content on pages that you upgrade to Dynamic Forms, remove the Record Detail - Mobile component from the pages.
+
+After you enable Dynamic Forms on Mobile, Lightning record pages that you upgrade to Dynamic Forms show dynamic forms on their mobile devices without additional configuration.
+
+## Enable Lightning Article Editor and Article Personalization for Knowledge Content
+
+Unlock a richer and more user-friendly experience with the new Lightning Article Editor. Tailor knowledge content to your business needs and unlock agent productivity using Article Personalization.
+
+Where: This change applies to Lightning Experience in Enterprise, Unlimited, Developer, Essentials, and Professional editions.
+
+When: Salesforce enforces this update in Winter ’25. To get the major release upgrade date for your instance, go to Trust Status, search for your instance, and click the maintenance tab.
+
+Why: With the Lightning Article Editor, you can:
+
+Boost author productivity with an easily accessible collection of content formatting capabilities and advanced table editing.
+Size the editor to your liking, including full screen mode, to author articles more effectively and to better understand how the articles look to the end user.
+Copy and paste content seamlessly from external sources, such as Google Docs or websites, while maintaining the look and feel of the original source content.
+Ensure your articles follow W3C accessibility standards using the built-in accessibility checker tool.
+With Article Personalization, you can create custom visibility rules that hide or show fields based on the user, user permissions, and record. 
+Salesforce admins customize knowledge articles by controlling which parts of an article are shown or hidden from specific audiences. And service agents interacting with the content find answers faster because they see only what they need to see.
+
+How: To enable the Lightning Article Editor and Article Personalization for Knowledge, go to Release Updates in Setup, find the update, and get started.
+
+
