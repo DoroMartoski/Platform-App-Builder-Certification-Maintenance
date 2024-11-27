@@ -69,3 +69,35 @@ Salesforce admins customize knowledge articles by controlling which parts of an 
 How: To enable the Lightning Article Editor and Article Personalization for Knowledge, go to Release Updates in Setup, find the update, and get started.
 
 
+## Save Time with Mass Quick Actions on Related Lists
+* Use quick actions on related lists to help your users create and update related records with ease.
+* Streamline data entry by configuring quick actions with predefined field values and action layouts that include only the most important fields.
+* Add quick actions directly on the related lists, right where users need them.
+* Your users can create related records for items in the list without leaving the page. Or they can perform mass updates on up to 100 related records at once.
+
+### How: You can add quick actions on a related list in one of two ways. In the Winter ’24 release, only Create a Record and Update a Record quick actions are supported.
+
+* To add quick actions from the Lightning App Builder, add or select the Dynamic Related List - Single component on the record page. In the properties pane, select Show list view action bar, and then click Add Action.
+* To add quick actions using the page layout editor, from the object management settings for the parent object, open the page layout. Double-click to open the related list properties, expand the Buttons section, and select the quick actions that you want to add. Then, from the parent record page in the Lightning App Builder, set the related list type to Enhanced List.
+
+## Set a Password or Expiration Date on a Public Link to a Salesforce File
+In Lightning Experience, when you create a public link to share a file, you can 
+* choose to set a date when the link expires.
+* You can also protect access to the file with a password. By default, link expiration is enabled and set for 30 days.
+* Use the password default settings to determine if protection is on or off by default. When password protection is toggled on, an auto-generated password shows in the dialog. Public links to folders don’t have password protection or link expiration.
+
+### How: When creating a public link to share a file, the dialog box shows your current default settings.
+
+* Expiration date is enabled and automatically set for 30 days out.
+
+### Password setting:
+* When Password is toggled off, no password is required, as shown in the example here.
+* If you previously enabled password protection, the dialog would display the auto-generated password.
+
+To set password defaults for Salesforce Files, edit the content deliveries settings. 
+* From Setup, in the Quick Find box, enter Salesforce Files, and then
+* select Content Deliveries and Public Links. Select a password default.
+* Choose from the following:
+* Password protection is optional and defaults to OFF
+* Password protection is optional and defaults to ON
+* Password protection is required (This setting doesn’t mean password protection is required in Lightning Experience, but it defaults to ON.)
